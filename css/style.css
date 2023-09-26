@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* common css start */
+body{
+font-family: 'Open Sans', sans-serif;
+}
+h1,h4{
+    font-family: 'Abril Fatface', cursive;
+}
+h2,h3,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif; 
+}
+ul{
+    list-style: none;
+}
+.margin{
+    width: 1170px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css end */
+/* p line css start */
+#all_p_line{
+    background-color:#0f2f44 ;
+    color:#919ca4;
+}
+.p-line{
+    justify-content: space-between;
+    padding:17px 0 ;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* p line css end */
+/* manu bar css start */
+#all_logo_manu{
+   
+
+}
+.logo-manu {
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.manu{
+    height: 95px;
+    align-items: center;
+   
+}
+.manu li  {
+    list-style: none;
+}
+.manu li a{
+    text-decoration: none;
+    color: #222222;
+    transition: .7s;
+    padding: 35px 15px;
+    font-weight: bold;
+}
+.manu li a:hover{
+    color: #ffcb31;
+    background: #fff9e6;
+
+}
+.manu button {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+color: #a8a8a8;
+background-color: #fff;
+border: 1px solid #dedede;
+margin-right:20px ;
+}
+.manu button:hover{
+    color: #ffcb31;
+    background: #fff9e6;
+
+}
+
+/* manu bar css end */
+/* Success css start*/
+#bg_style-1{
+    background-image:url(../img/bg-img.jpg);
+    background-size: cover;
+    padding: 130px 0;
+}
+.all-bg{
+    width: 50%;
+}
+.all-bg h2{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight:300 ;
+}
+.all-bg h1{
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+.all-bg h3{
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 15px;
+    padding-top: 10px;
+  
+}
+.all-bg p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-right:120px;
+    margin: 30px 0;
+    margin-bottom: 45px;
+    color: #6c7882;
+}
+.all-bg a{
+    text-decoration: none;
+    border-radius:5px;
+    background-color: #8484bf;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.all-bg button{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: none;
+    background-color: #fff;
+    color: #8484bf;
+   
+}
+/* Success css end */
+
+/* About us css start */
+.all_about {
+    padding: 100px 0;
+}
+.about-item{ 
+    width:50% ;
+}
+.about-item p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c7882;
+
+
+}
+.about-item h4 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom:15px;
+
+
+ 
+}
+.about-item ul li{
+    margin-top: 15px;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #6c7882;
+}
+.about-item ul button{
+    margin: 20px 10px;
+    border-radius:5px;
+    background-color: #ffc712;
+    padding: 15px 25px;
+    color: #0f2f44;
+    font-size: 16px;
+    border: none;
+    font-weight: 800;
+}
+.about-item ul button:last-child{
+    background-color: #fff;
+    border: 2px solid rgba(184, 183, 183, 0.823);
+}
+
+
+/* About us css end */
+
